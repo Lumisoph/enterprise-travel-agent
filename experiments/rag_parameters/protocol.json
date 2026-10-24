@@ -1,0 +1,969 @@
+{
+  "settings": [
+    {
+      "chunk": 400,
+      "splitter": "chapter",
+      "pooling": "cls",
+      "normalize": true,
+      "mode": "hybrid",
+      "candidate": 10,
+      "top_k": 3,
+      "rrf": 60,
+      "budget": 2400,
+      "titles": true
+    },
+    {
+      "chunk": 200,
+      "splitter": "chapter",
+      "pooling": "cls",
+      "normalize": true,
+      "mode": "hybrid",
+      "candidate": 10,
+      "top_k": 3,
+      "rrf": 60,
+      "budget": 2400,
+      "titles": true
+    },
+    {
+      "chunk": 300,
+      "splitter": "chapter",
+      "pooling": "cls",
+      "normalize": true,
+      "mode": "hybrid",
+      "candidate": 10,
+      "top_k": 3,
+      "rrf": 60,
+      "budget": 2400,
+      "titles": true
+    },
+    {
+      "chunk": 500,
+      "splitter": "chapter",
+      "pooling": "cls",
+      "normalize": true,
+      "mode": "hybrid",
+      "candidate": 10,
+      "top_k": 3,
+      "rrf": 60,
+      "budget": 2400,
+      "titles": true
+    },
+    {
+      "chunk": 600,
+      "splitter": "chapter",
+      "pooling": "cls",
+      "normalize": true,
+      "mode": "hybrid",
+      "candidate": 10,
+      "top_k": 3,
+      "rrf": 60,
+      "budget": 2400,
+      "titles": true
+    },
+    {
+      "chunk": 400,
+      "splitter": "chapter",
+      "pooling": "cls",
+      "normalize": true,
+      "mode": "hybrid",
+      "candidate": 3,
+      "top_k": 3,
+      "rrf": 60,
+      "budget": 2400,
+      "titles": true
+    },
+    {
+      "chunk": 400,
+      "splitter": "chapter",
+      "pooling": "cls",
+      "normalize": true,
+      "mode": "hybrid",
+      "candidate": 5,
+      "top_k": 3,
+      "rrf": 60,
+      "budget": 2400,
+      "titles": true
+    },
+    {
+      "chunk": 400,
+      "splitter": "chapter",
+      "pooling": "cls",
+      "normalize": true,
+      "mode": "hybrid",
+      "candidate": 20,
+      "top_k": 3,
+      "rrf": 60,
+      "budget": 2400,
+      "titles": true
+    },
+    {
+      "chunk": 400,
+      "splitter": "chapter",
+      "pooling": "cls",
+      "normalize": true,
+      "mode": "hybrid",
+      "candidate": 10,
+      "top_k": 1,
+      "rrf": 60,
+      "budget": 2400,
+      "titles": true
+    },
+    {
+      "chunk": 400,
+      "splitter": "chapter",
+      "pooling": "cls",
+      "normalize": true,
+      "mode": "hybrid",
+      "candidate": 10,
+      "top_k": 5,
+      "rrf": 60,
+      "budget": 2400,
+      "titles": true
+    },
+    {
+      "chunk": 400,
+      "splitter": "chapter",
+      "pooling": "cls",
+      "normalize": true,
+      "mode": "hybrid",
+      "candidate": 10,
+      "top_k": 8,
+      "rrf": 60,
+      "budget": 2400,
+      "titles": true
+    },
+    {
+      "chunk": 400,
+      "splitter": "chapter",
+      "pooling": "cls",
+      "normalize": true,
+      "mode": "hybrid",
+      "candidate": 10,
+      "top_k": 3,
+      "rrf": 10,
+      "budget": 2400,
+      "titles": true
+    },
+    {
+      "chunk": 400,
+      "splitter": "chapter",
+      "pooling": "cls",
+      "normalize": true,
+      "mode": "hybrid",
+      "candidate": 10,
+      "top_k": 3,
+      "rrf": 30,
+      "budget": 2400,
+      "titles": true
+    },
+    {
+      "chunk": 400,
+      "splitter": "chapter",
+      "pooling": "cls",
+      "normalize": true,
+      "mode": "hybrid",
+      "candidate": 10,
+      "top_k": 3,
+      "rrf": 100,
+      "budget": 2400,
+      "titles": true
+    },
+    {
+      "chunk": 400,
+      "splitter": "chapter",
+      "pooling": "cls",
+      "normalize": true,
+      "mode": "hybrid",
+      "candidate": 10,
+      "top_k": 3,
+      "rrf": 60,
+      "budget": 600,
+      "titles": true
+    },
+    {
+      "chunk": 400,
+      "splitter": "chapter",
+      "pooling": "cls",
+      "normalize": true,
+      "mode": "hybrid",
+      "candidate": 10,
+      "top_k": 3,
+      "rrf": 60,
+      "budget": 1200,
+      "titles": true
+    },
+    {
+      "chunk": 400,
+      "splitter": "chapter",
+      "pooling": "cls",
+      "normalize": true,
+      "mode": "hybrid",
+      "candidate": 10,
+      "top_k": 3,
+      "rrf": 60,
+      "budget": 3600,
+      "titles": true
+    },
+    {
+      "chunk": 400,
+      "splitter": "chapter",
+      "pooling": "cls",
+      "normalize": true,
+      "mode": "dense",
+      "candidate": 10,
+      "top_k": 3,
+      "rrf": 60,
+      "budget": 2400,
+      "titles": true
+    },
+    {
+      "chunk": 400,
+      "splitter": "chapter",
+      "pooling": "cls",
+      "normalize": true,
+      "mode": "bm25",
+      "candidate": 10,
+      "top_k": 3,
+      "rrf": 60,
+      "budget": 2400,
+      "titles": true
+    },
+    {
+      "chunk": 400,
+      "splitter": "fixed",
+      "pooling": "cls",
+      "normalize": true,
+      "mode": "hybrid",
+      "candidate": 10,
+      "top_k": 3,
+      "rrf": 60,
+      "budget": 2400,
+      "titles": true
+    },
+    {
+      "chunk": 400,
+      "splitter": "overlap",
+      "pooling": "cls",
+      "normalize": true,
+      "mode": "hybrid",
+      "candidate": 10,
+      "top_k": 3,
+      "rrf": 60,
+      "budget": 2400,
+      "titles": true
+    },
+    {
+      "chunk": 400,
+      "splitter": "chapter",
+      "pooling": "mean",
+      "normalize": true,
+      "mode": "hybrid",
+      "candidate": 10,
+      "top_k": 3,
+      "rrf": 60,
+      "budget": 2400,
+      "titles": true
+    },
+    {
+      "chunk": 400,
+      "splitter": "chapter",
+      "pooling": "cls",
+      "normalize": false,
+      "mode": "hybrid",
+      "candidate": 10,
+      "top_k": 3,
+      "rrf": 60,
+      "budget": 2400,
+      "titles": true
+    },
+    {
+      "chunk": 400,
+      "splitter": "chapter",
+      "pooling": "cls",
+      "normalize": true,
+      "mode": "hybrid",
+      "candidate": 10,
+      "top_k": 3,
+      "rrf": 60,
+      "budget": 2400,
+      "titles": false
+    }
+  ],
+  "dev": [
+    {
+      "id": "dev_01",
+      "split": "dev",
+      "query": "北京出差住宿每晚限额多少？",
+      "evidence": [
+        {
+          "source": "01_travel_standards.txt",
+          "quote": "500元"
+        }
+      ]
+    },
+    {
+      "id": "dev_02",
+      "split": "dev",
+      "query": "高原地区住宿标准如何调整？",
+      "evidence": [
+        {
+          "source": "01_travel_standards.txt",
+          "quote": "20%"
+        }
+      ]
+    },
+    {
+      "id": "dev_03",
+      "split": "dev",
+      "query": "差旅申请需要提前多少个工作日？",
+      "evidence": [
+        {
+          "source": "01_travel_standards.txt",
+          "quote": "3个工作日"
+        }
+      ]
+    },
+    {
+      "id": "dev_04",
+      "split": "dev",
+      "query": "出差结束后多久提交报销？",
+      "evidence": [
+        {
+          "source": "02_reimbursement_policy.txt",
+          "quote": "30个自然日"
+        }
+      ]
+    },
+    {
+      "id": "dev_05",
+      "split": "dev",
+      "query": "12月份出差最晚什么时候报销？",
+      "evidence": [
+        {
+          "source": "02_reimbursement_policy.txt",
+          "quote": "1月15日"
+        }
+      ]
+    },
+    {
+      "id": "dev_06",
+      "split": "dev",
+      "query": "纸质发票保存多少年？",
+      "evidence": [
+        {
+          "source": "02_reimbursement_policy.txt",
+          "quote": "7年"
+        }
+      ]
+    },
+    {
+      "id": "dev_07",
+      "split": "dev",
+      "query": "发票抬头写错且无法重开怎么办？",
+      "evidence": [
+        {
+          "source": "02_reimbursement_policy.txt",
+          "quote": "无法重开的"
+        }
+      ]
+    },
+    {
+      "id": "dev_08",
+      "split": "dev",
+      "query": "酒店minibar可以报销吗？",
+      "evidence": [
+        {
+          "source": "02_reimbursement_policy.txt",
+          "quote": "minibar"
+        }
+      ]
+    },
+    {
+      "id": "dev_09",
+      "split": "dev",
+      "query": "国际漫游业务通话报销需要什么？",
+      "evidence": [
+        {
+          "source": "02_reimbursement_policy.txt",
+          "quote": "通话记录"
+        }
+      ]
+    },
+    {
+      "id": "dev_10",
+      "split": "dev",
+      "query": "航班误机，国内国际分别提前多久到机场？",
+      "evidence": [
+        {
+          "source": "05_emergency_procedures.txt",
+          "quote": "1.5小时"
+        },
+        {
+          "source": "05_emergency_procedures.txt",
+          "quote": "3小时"
+        }
+      ]
+    },
+    {
+      "id": "dev_11",
+      "split": "dev",
+      "query": "航班延误报销要索取什么证明？",
+      "evidence": [
+        {
+          "source": "05_emergency_procedures.txt",
+          "quote": "延误证明"
+        }
+      ]
+    },
+    {
+      "id": "dev_12",
+      "split": "dev",
+      "query": "托运行李没到，应获取什么编号？",
+      "evidence": [
+        {
+          "source": "05_emergency_procedures.txt",
+          "quote": "报告编号"
+        }
+      ]
+    },
+    {
+      "id": "dev_13",
+      "split": "dev",
+      "query": "境外领事保护热线12308是什么？",
+      "evidence": [
+        {
+          "source": "05_emergency_procedures.txt",
+          "quote": "12308"
+        }
+      ]
+    },
+    {
+      "id": "dev_14",
+      "split": "dev",
+      "query": "到店无房时酒店费用差额谁承担？",
+      "evidence": [
+        {
+          "source": "05_emergency_procedures.txt",
+          "quote": "费用差额"
+        }
+      ]
+    },
+    {
+      "id": "dev_15",
+      "split": "dev",
+      "query": "额外购买的保险可以报销吗？",
+      "evidence": [
+        {
+          "source": "02_reimbursement_policy.txt",
+          "quote": "额外购买的保险"
+        }
+      ]
+    },
+    {
+      "id": "dev_16",
+      "split": "dev",
+      "query": "个人原因产生的改签费能报销吗？",
+      "evidence": [
+        {
+          "source": "02_reimbursement_policy.txt",
+          "quote": "个人原因产生的改签费"
+        }
+      ]
+    }
+  ],
+  "test": [
+    {
+      "id": "test_01",
+      "split": "test",
+      "query": "国际航班应提前几周订票？",
+      "evidence": [
+        {
+          "source": "03_booking_guide.txt",
+          "quote": "国际机票：建议提前21-30天预订"
+        }
+      ]
+    },
+    {
+      "id": "test_02",
+      "split": "test",
+      "query": "坐飞机中途转机至少留多长时间？",
+      "evidence": [
+        {
+          "source": "03_booking_guide.txt",
+          "quote": "建议至少2小时"
+        }
+      ]
+    },
+    {
+      "id": "test_03",
+      "split": "test",
+      "query": "自己付费选前排座位能让公司买单吗？",
+      "evidence": [
+        {
+          "source": "03_booking_guide.txt",
+          "quote": "付费选座需自付"
+        }
+      ]
+    },
+    {
+      "id": "test_04",
+      "split": "test",
+      "query": "飞机的网上值机提前多久开放？",
+      "evidence": [
+        {
+          "source": "03_booking_guide.txt",
+          "quote": "航班起飞前24小时开放"
+        }
+      ]
+    },
+    {
+      "id": "test_05",
+      "split": "test",
+      "query": "火车开车前两天到十五天之间退票怎么收费？",
+      "evidence": [
+        {
+          "source": "03_booking_guide.txt",
+          "quote": "开车前48小时至15天：收取5%退票费"
+        }
+      ]
+    },
+    {
+      "id": "test_06",
+      "split": "test",
+      "query": "酒店办理入住退房通常分别是什么时间？",
+      "evidence": [
+        {
+          "source": "03_booking_guide.txt",
+          "quote": "一般为14:00以后"
+        },
+        {
+          "source": "03_booking_guide.txt",
+          "quote": "一般为次日12:00前"
+        }
+      ]
+    },
+    {
+      "id": "test_07",
+      "split": "test",
+      "query": "租来的车取车时要出示哪些证件？",
+      "evidence": [
+        {
+          "source": "03_booking_guide.txt",
+          "quote": "需提供本人驾驶证和身份证"
+        }
+      ]
+    },
+    {
+      "id": "test_08",
+      "split": "test",
+      "query": "自行预订价格高于平台，按什么价格报销？",
+      "evidence": [
+        {
+          "source": "03_booking_guide.txt",
+          "quote": "按平台价格报销"
+        }
+      ]
+    },
+    {
+      "id": "test_09",
+      "split": "test",
+      "query": "绿色出行里多远以内优先坐高铁？",
+      "evidence": [
+        {
+          "source": "08_environmental_initiatives.txt",
+          "quote": "500公里以内的出差，优先选择高铁"
+        }
+      ]
+    },
+    {
+      "id": "test_10",
+      "split": "test",
+      "query": "目的地三公里内有什么环保出行建议？",
+      "evidence": [
+        {
+          "source": "08_environmental_initiatives.txt",
+          "quote": "3公里以内可选择共享单车或步行"
+        }
+      ]
+    },
+    {
+      "id": "test_11",
+      "split": "test",
+      "query": "环保酒店有哪些国际认证名称？",
+      "evidence": [
+        {
+          "source": "08_environmental_initiatives.txt",
+          "quote": "Green Key、EarthCheck"
+        }
+      ]
+    },
+    {
+      "id": "test_12",
+      "split": "test",
+      "query": "在酒店连住时床单多久换一次比较环保？",
+      "evidence": [
+        {
+          "source": "08_environmental_initiatives.txt",
+          "quote": "床单每2-3天更换一次即可"
+        }
+      ]
+    },
+    {
+      "id": "test_13",
+      "split": "test",
+      "query": "酒店空调夏冬各建议设置多少度？",
+      "evidence": [
+        {
+          "source": "08_environmental_initiatives.txt",
+          "quote": "夏季26度，冬季20度"
+        }
+      ]
+    },
+    {
+      "id": "test_14",
+      "split": "test",
+      "query": "一棵树一年大约吸收多少二氧化碳？",
+      "evidence": [
+        {
+          "source": "08_environmental_initiatives.txt",
+          "quote": "每棵树每年可吸收约18公斤CO2"
+        }
+      ]
+    },
+    {
+      "id": "test_15",
+      "split": "test",
+      "query": "样例中高铁与经济舱飞机每人每公里碳排放分别多少？",
+      "evidence": [
+        {
+          "source": "08_environmental_initiatives.txt",
+          "quote": "高铁：约15-20克CO2"
+        },
+        {
+          "source": "08_environmental_initiatives.txt",
+          "quote": "飞机（经济舱）：约150-200克CO2"
+        }
+      ]
+    },
+    {
+      "id": "test_16",
+      "split": "test",
+      "query": "废旧电子设备在捐赠回收之前需要做什么？",
+      "evidence": [
+        {
+          "source": "08_environmental_initiatives.txt",
+          "quote": "数据清除后可捐赠或回收"
+        }
+      ]
+    },
+    {
+      "id": "test_17",
+      "split": "test",
+      "query": "跨国出差与超过十天的长期出差各找谁审批？",
+      "evidence": [
+        {
+          "source": "01_travel_standards.txt",
+          "quote": "跨国出差：需要部门总监审批"
+        },
+        {
+          "source": "01_travel_standards.txt",
+          "quote": "长期出差（超过10天）：需要更高级别审批"
+        }
+      ]
+    },
+    {
+      "id": "test_18",
+      "split": "test",
+      "query": "紧急出差先出发后审批，回来多久补完？",
+      "evidence": [
+        {
+          "source": "01_travel_standards.txt",
+          "quote": "需在返回后3日内完成"
+        }
+      ]
+    },
+    {
+      "id": "test_19",
+      "split": "test",
+      "query": "飞国外四小时以上能买什么舱位？",
+      "evidence": [
+        {
+          "source": "01_travel_standards.txt",
+          "quote": "国际长途航线（4小时以上）：可预订高端经济舱"
+        }
+      ]
+    },
+    {
+      "id": "test_20",
+      "split": "test",
+      "query": "酒店没有早餐时可另报多少？",
+      "evidence": [
+        {
+          "source": "01_travel_standards.txt",
+          "quote": "如酒店不含早餐"
+        },
+        {
+          "source": "01_travel_standards.txt",
+          "quote": "标准不超过30元/餐"
+        }
+      ]
+    },
+    {
+      "id": "test_21",
+      "split": "test",
+      "query": "客户招待超五百元要提供什么并由谁批？",
+      "evidence": [
+        {
+          "source": "01_travel_standards.txt",
+          "quote": "需提供业务说明、参与人员名单、消费明细"
+        },
+        {
+          "source": "01_travel_standards.txt",
+          "quote": "超过500元需要部门主管审批"
+        }
+      ]
+    },
+    {
+      "id": "test_22",
+      "split": "test",
+      "query": "机场停车和业务拜访停车各能报销吗？",
+      "evidence": [
+        {
+          "source": "01_travel_standards.txt",
+          "quote": "机场停车费：不予报销"
+        },
+        {
+          "source": "01_travel_standards.txt",
+          "quote": "业务拜访停车费：可报销，需提供停车票据"
+        }
+      ]
+    },
+    {
+      "id": "test_23",
+      "split": "test",
+      "query": "住宿费用超标百分之三十以上由谁批？",
+      "evidence": [
+        {
+          "source": "01_travel_standards.txt",
+          "quote": "超标30%以上需总监审批"
+        }
+      ]
+    },
+    {
+      "id": "test_24",
+      "split": "test",
+      "query": "因公延长行程超过三天要不要重新审批？",
+      "evidence": [
+        {
+          "source": "01_travel_standards.txt",
+          "quote": "重大变更（如延长超过3天）：需重新提交审批"
+        }
+      ]
+    },
+    {
+      "id": "test_25",
+      "split": "test",
+      "query": "普通出差申请最晚要提前几个工作日提交？",
+      "evidence": [
+        {
+          "source": "01_travel_standards.txt",
+          "quote": "申请应在出发前至少3个工作日提交"
+        }
+      ]
+    },
+    {
+      "id": "test_26",
+      "split": "test",
+      "query": "直属主管一般需要在多久内完成审批？",
+      "evidence": [
+        {
+          "source": "01_travel_standards.txt",
+          "quote": "主管应在1个工作日内完成审批"
+        }
+      ]
+    },
+    {
+      "id": "test_27",
+      "split": "test",
+      "query": "晚上十一点坐高铁可以订什么座位？",
+      "evidence": [
+        {
+          "source": "01_travel_standards.txt",
+          "quote": "夜间出行（22:00-6:00）：可选择卧铺"
+        }
+      ]
+    },
+    {
+      "id": "test_28",
+      "split": "test",
+      "query": "身高超过185厘米坐飞机能申请更高舱位吗？",
+      "evidence": [
+        {
+          "source": "01_travel_standards.txt",
+          "quote": "身高超过1.85米或孕妇可申请更高舱位，需提供证明"
+        }
+      ]
+    },
+    {
+      "id": "test_29",
+      "split": "test",
+      "query": "北京出差住酒店每晚的标准是多少？",
+      "evidence": [
+        {
+          "source": "01_travel_standards.txt",
+          "quote": "标准：不超过500元/晚"
+        }
+      ]
+    },
+    {
+      "id": "test_30",
+      "split": "test",
+      "query": "去西藏出差住宿标准可以上浮多少？",
+      "evidence": [
+        {
+          "source": "01_travel_standards.txt",
+          "quote": "标准：可上浮20%"
+        }
+      ]
+    },
+    {
+      "id": "test_31",
+      "split": "test",
+      "query": "午餐和晚餐每餐最多能报多少？",
+      "evidence": [
+        {
+          "source": "01_travel_standards.txt",
+          "quote": "标准：每餐不超过100元"
+        }
+      ]
+    },
+    {
+      "id": "test_32",
+      "split": "test",
+      "query": "因公出国办理签证的费用怎么报？",
+      "evidence": [
+        {
+          "source": "01_travel_standards.txt",
+          "quote": "因公出国签证费：全额报销"
+        }
+      ]
+    },
+    {
+      "id": "test_33",
+      "split": "test",
+      "query": "工作设备导致的超重行李费能不能报？",
+      "evidence": [
+        {
+          "source": "01_travel_standards.txt",
+          "quote": "超重行李费：因工作需要携带设备等导致超重，可报销，需说明"
+        }
+      ]
+    },
+    {
+      "id": "test_34",
+      "split": "test",
+      "query": "出差结束后最迟多少天提交报销？",
+      "evidence": [
+        {
+          "source": "02_reimbursement_policy.txt",
+          "quote": "出差结束后，应在30个自然日内提交报销申请"
+        }
+      ]
+    },
+    {
+      "id": "test_35",
+      "split": "test",
+      "query": "十二月出差的报销最晚能到什么时候？",
+      "evidence": [
+        {
+          "source": "02_reimbursement_policy.txt",
+          "quote": "12月份出差：可在次年1月15日前报销"
+        }
+      ]
+    },
+    {
+      "id": "test_36",
+      "split": "test",
+      "query": "酒店发票上必须显示哪些信息？",
+      "evidence": [
+        {
+          "source": "02_reimbursement_policy.txt",
+          "quote": "发票上应显示住宿日期、天数、金额"
+        }
+      ]
+    },
+    {
+      "id": "test_37",
+      "split": "test",
+      "query": "跨年度出差需要什么时候完成报销？",
+      "evidence": [
+        {
+          "source": "02_reimbursement_policy.txt",
+          "quote": "跨年度出差：应在当年12月31日前完成报销"
+        }
+      ]
+    },
+    {
+      "id": "test_38",
+      "split": "test",
+      "query": "忘记提交报销且超过30天会怎样？",
+      "evidence": [
+        {
+          "source": "02_reimbursement_policy.txt",
+          "quote": "超过30天未报销且未说明：不予受理"
+        }
+      ]
+    },
+    {
+      "id": "test_39",
+      "split": "test",
+      "query": "差旅标准从哪一天开始生效？",
+      "evidence": [
+        {
+          "source": "01_travel_standards.txt",
+          "quote": "本标准自2024年1月1日起生效"
+        }
+      ]
+    },
+    {
+      "id": "test_40",
+      "split": "test",
+      "query": "哪些部门共同负责解释差旅标准？",
+      "evidence": [
+        {
+          "source": "01_travel_standards.txt",
+          "quote": "本标准由人力资源部和财务部共同解释"
+        }
+      ]
+    },
+    {
+      "id": "test_41",
+      "split": "test",
+      "query": "短途出差多少公里以内建议坐高铁？",
+      "evidence": [
+        {
+          "source": "01_travel_standards.txt",
+          "quote": "短途出差（300公里以内）：鼓励使用高铁而非飞机"
+        }
+      ]
+    }
+  ],
+  "no_answer": [
+    "公司对宠物随行补贴的具体金额是多少？",
+    "去火星出差可以申请多少宇航服补助？",
+    "2027年最新差旅政策中董事长私人飞机额度多少？",
+    "请给出这家公司当前适用的南极驻站伙食补贴表。"
+  ],
+  "selection": "仅dev：完整证据率最大，其次必要证据覆盖，再少上下文、少候选、先登记配置",
+  "scope": "单因素敏感性，不是完整网格或全局最优；24题新留出由同一助手按新条款编写，非人类独立盲评",
+  "corpus_hashes": {
+    "01_travel_standards.txt": "8e658ac9f149d21258490cded50095574ae6e8d67c9c337c0217dd2b0d2ac4cc",
+    "02_reimbursement_policy.txt": "543dd861e61ed19878e638c04b344465818349593ef515bcb555e89672c6505c",
+    "03_booking_guide.txt": "b71234af4e85f68e172b1ad7f43c1b564dce67ace4a6977cbb8706c47451e4af",
+    "04_faq.txt": "db4fa8f22d1f298da461ff2fdbfdd0c6864f7ddb3d1f735f71e9549318944148",
+    "05_emergency_procedures.txt": "5fd7691cc7b8e69ca4d1e719cdfb2606b1c98fdd1961deab26df827047a848ae",
+    "06_platform_guide.txt": "df42ad95f1e8b7bf7ff7f6ead3515d6e2cda777e413654d87675fd8fbf9abca7",
+    "07_city_specific_tips.txt": "91b65de00c157be23fd12f68940656f9ca3e731298afc84e92866fc7250a6a69",
+    "08_environmental_initiatives.txt": "bf6818d631a2de4ea7e711becc76ca65ea5490453021d3519efc2dc59989a8a7"
+  }
+}

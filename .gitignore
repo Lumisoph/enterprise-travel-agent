@@ -1,0 +1,104 @@
+# Python 缓存与构建产物
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# 虚拟环境
+.venv/
+.venv-*/
+venv/
+env/
+ENV/
+
+# 本机配置与密钥
+.env
+.env.*
+!.env.example
+.claude/settings*.json
+.claude/claudian-settings.json
+.agentscope/
+
+# IDE 与系统文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# 下载的模型、用户数据与生成的向量库
+data/models/
+data/memory/*.json
+!data/memory/.gitkeep
+.claude/skills/ask-question/data/rag_knowledge/
+.claude/skills/ask-question/data/rag_knowledge_v2/
+*.db
+*.db-*
+*.db.bak-*
+
+# 日志与本地实验输出；保留经过审计的主实验结果
+*.log
+experiments/results/*
+!experiments/results/llm_recorded/
+experiments/tests/tmp_state*/
+tests/results/
+
+# 不发布的本机研究产物
+experiment_design.md
+findings.md
+progress.md
+task_plan.md
+utils/dependency_scheduler.py
+tests/test_orchestration_strategy.py
+experiments/analysis/
+experiments/benchmark/
+experiments/benchmark_recorded/
+experiments/diagnostics/
+experiments/evaluator/
+experiments/replay/
+experiments/results/
+experiments/runner/
+experiments/tests/
+experiments/*.py
+experiments/*.md
+experiments/*.json
+experiments/requirements.txt
+
+# 早期探索性 RAG 产物（本机保留，公开仓库只保留当前评估）
+experiments/rag_controlled/
+experiments/rag_testset/
+experiments/rag_volunteer/
+scripts/audit_large_rag_dataset.py
+scripts/build_controlled_rag_dataset.py
+scripts/build_large_rag_dataset.py
+scripts/build_rag_testset.py
+scripts/build_simulated_volunteer_dataset.py
+scripts/evaluate_rag_controlled.py
+scripts/evaluate_rag_testset_1000.py
+scripts/evaluate_rag_testset_protocol.py
+scripts/evaluate_reranker_simulated.py
+scripts/evaluate_simulated_volunteer.py
+
+# 需要在线模型的旧式手工测试（本机保留）
+tests/test_cli_qa.py
+tests/test_event_collection_agent.py
+tests/test_information_query_agent.py
+tests/test_intention_agent.py
+tests/test_memory_system.py
+tests/test_orchestration.py
+tests/test_rag_agent.py
+
+# 临时文件
+*.tmp
+*.bak
+*.lock

@@ -1,0 +1,32 @@
+{
+  "dataset": "H:\\差旅出行助手\\差旅出行助手\\experiments\\rag_parameters\\large_cases.json",
+  "count": 1000,
+  "evidence_groups": 84,
+  "type_distribution": {
+    "paraphrase": 1000
+  },
+  "source_distribution": {
+    "01_travel_standards.txt": 1000
+  },
+  "split_distribution": {
+    "train": 600,
+    "test": 228,
+    "dev": 172
+  },
+  "exact_or_normalized_duplicate_queries": 0,
+  "shared_evidence_groups": 84,
+  "duplicate_evidence_quotes": 84,
+  "problems": [],
+  "quality_gates": {
+    "all_evidence_present_in_source": true,
+    "no_empty_query": true,
+    "has_multiple_intent_types": false,
+    "has_negative_cases": false,
+    "split_by_evidence_group": true
+  },
+  "notes": [
+    "同一 evidence 组的改写题必须放在同一 split；否则指标会被相似改写高估。",
+    "仅有 paraphrase 类型或没有负样本时，不应宣称测试了拒答能力。",
+    "证据存在性检查是必要条件，不能替代人工核验答案蕴含关系。"
+  ]
+}

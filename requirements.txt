@@ -1,0 +1,28 @@
+# 基础（milvus_lite 依赖 pkg_resources，需 setuptools<82）
+setuptools>=69.0.0,<82
+
+# 多智能体框架
+# 1.0.16~1.0.21 的流式解析对 audio 字段未判空（第三方代理返回 audio:null 会崩溃），
+# 由项目内 utils/agentscope_compat.py 的 CompatOpenAIChatModel 兜底，版本固定 1.x 末版
+agentscope==1.0.21
+# agentscope 1.0.x 使用 mcp 1.x 的旧接口名（streamablehttp_client），
+# mcp 2.x 已移除该名；1.15 及更早又与 pydantic>=2.11 不兼容，固定 1.30.0
+mcp==1.30.0
+# agentscope 的 memory 模块（SQLAlchemy asyncio）需要 greenlet
+greenlet>=3.0.0
+
+# LLM 调用
+requests==2.32.3
+
+# RAG 与向量库（本地 Milvus Lite 连接）
+# 注意：pymilvus 2.x 的 milvus_lite extra 不含 Windows 轮子，
+# Windows 下必须使用 pymilvus 3.x + milvus-lite 3.x 组合
+pymilvus==3.0.2
+milvus-lite==3.2.2
+sentence-transformers==5.2.3
+
+# CLI 界面
+rich==13.9.4
+
+# 网络搜索（DDGS）
+ddgs==9.10.0
